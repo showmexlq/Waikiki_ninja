@@ -1,8 +1,7 @@
 ## 文档
 
-   ## 容器内
-1. 进容器内执行以下命令
-   ````
+1. 安装
+   ```
 docker run -dit \
 -v $PWD/ql:/ql/data \
 -v $PWD/ql/ninja:/ql/ninja \
@@ -12,7 +11,7 @@ docker run -dit \
 --hostname qinglong \
 --restart always \
 whyour/qinglong:2.12.2
-   ````
+   ```
 
 2. 进容器内执行以下命令
    ```
