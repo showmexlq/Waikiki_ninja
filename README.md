@@ -1,5 +1,4 @@
-## 文档
-
+ 1.安装青龙
    ```
 docker run -dit \
 -v $PWD/ql:/ql/data \
