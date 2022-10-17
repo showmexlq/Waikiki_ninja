@@ -3,15 +3,15 @@
    ## 容器内
 
    ````
-   docker run -dit \
-   -v $PWD/ql:/ql/data \
-   -v $PWD/ql/ninja:/ql/ninja \
-   -p 5700:5700 \
-   -p 5701:5701 \
-   --name qinglong \
-   --hostname qinglong \
-   --restart always \
-   whyour/qinglong:2.12.2
+      docker run -dit \
+      -v $PWD/ql:/ql/data \
+      -v $PWD/ql/ninja:/ql/ninja \
+      -p 5700:5700 \
+      -p 5701:5701 \
+      --name qinglong \
+      --hostname qinglong \
+      --restart always \
+      whyour/qinglong:2.12.2
    ````
 
 2. 进容器内执行以下命令
