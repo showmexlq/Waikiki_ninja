@@ -1,6 +1,5 @@
 ## 文档
 
-1. 安装
    ```
 docker run -dit \
 -v $PWD/ql:/ql/data \
