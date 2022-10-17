@@ -1,7 +1,7 @@
 ## 文档
 
    ## 容器内
-
+1. 进容器内执行以下命令
    ````
 docker run -dit \
 -v $PWD/ql:/ql/data \
