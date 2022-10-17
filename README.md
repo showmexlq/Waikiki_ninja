@@ -2,7 +2,7 @@
 
    ### 容器内
 
-   ```
+   ````
    docker run -dit \
    -v $PWD/ql:/ql/data \
    -v $PWD/ql/ninja:/ql/ninja \
@@ -12,7 +12,7 @@
    --hostname qinglong \
    --restart always \
    whyour/qinglong:2.12.2
-   ```
+   ````
 
 2. 进容器内执行以下命令
    ```
