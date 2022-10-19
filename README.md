@@ -1,4 +1,25 @@
  1.安装青龙
+ 安装2.10.13
+ ```
+ docker run -dit \
+-v $PWD/ql/config:/ql/config \
+-v $PWD/ql/log:/ql/log \
+-v $PWD/ql/db:/ql/db \
+-v $PWD/ql/scripts:/ql/scripts \
+-v $PWD/ql/jbot:/ql/jbot \
+-v $PWD/ql/repo:/ql/repo \
+-v $PWD/ql/ninja:/ql/ninja \
+-p 5701:5700 \
+-p 5701:5701 \
+-e ENABLE_HANGUP=true \
+-e ENABLE_WEB_PANEL=true \
+--name ql \
+--hostname ql \
+--privileged=true \
+--restart always \
+whyour/qinglong:2.10.13
+ ```
+ 安装2.12.2
    ```
 docker run -dit \
 -v $PWD/ql:/ql/data \
