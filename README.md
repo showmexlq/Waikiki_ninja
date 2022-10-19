@@ -13,8 +13,8 @@
 -p 5701:5701 \
 -e ENABLE_HANGUP=true \
 -e ENABLE_WEB_PANEL=true \
---name ql \
---hostname ql \
+--name qinglong \
+--hostname qinglong \
 --privileged=true \
 --restart always \
 whyour/qinglong:2.10.13
